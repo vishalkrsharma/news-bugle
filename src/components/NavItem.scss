@@ -1,0 +1,21 @@
+.nav__links__item {
+  &:hover,
+  &:active {
+    background-color: #555;
+  }
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1040px) {
+  .nav__links__item {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 20;
+    border-radius: 0;
+  }
+}

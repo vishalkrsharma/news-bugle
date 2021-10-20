@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-      <Navbar brand='The Bugle' />
+      <Navbar brand='News Bugle' />
     </>
   );
 }
