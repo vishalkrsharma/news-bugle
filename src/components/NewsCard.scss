@@ -1,0 +1,60 @@
+.card {
+  &__source {
+    background-color: red;
+    font-size: 1.75rem;
+    position: absolute;
+    margin: 5px;
+    padding: 2.5px 5px;
+    line-height: 100%;
+    border-radius: 5px;
+  }
+
+  &__img {
+    height: 200px;
+    background-size: cover;
+    border-radius: 5px;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+  }
+
+  &__desc {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    &:hover {
+      cursor: pointer;
+    }
+
+    font-size: 1.5rem;
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: #3484f0 !important;
+    border: 0;
+    margin: 0 auto;
+    border-radius: 10px 0px 10px 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Ubuntu Mono';
+  }
+
+  position: relative;
+  margin: 0 auto;
+  padding: 15px;
+  width: 340px;
+  flex-grow: 1;
+  box-shadow: 0 0 4px 1px #000;
+  border-radius: 10px;
+  background-color: #444;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Ubuntu Mono';
+  word-wrap: break-word;
+}
